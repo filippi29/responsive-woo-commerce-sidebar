@@ -1,0 +1,21 @@
+@media (max-width: 921px) {
+.ast-left-sidebar #content > .ast-container {
+	flex-direction: column !important;
+	}
+}
+ 
+@media(min-width: 983px){
+	#filterButton {
+		display:none;
+	}
+}
+ 
+@media(max-width: 982px){
+	#filterButton {
+		display:block;
+	}
+}
+//για να εμφανιζει ΜΟΝΟ τις γονικες κατηγοριες
+ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
+    display: none;
+}
